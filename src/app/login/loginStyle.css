@@ -1,0 +1,29 @@
+/* styles/styles.css */
+.landing-page {
+    background: url('./Images/Landingpage.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  
+  .icon-container {
+    display: flex;
+    justify-content: space-around;
+    width: 300px;
+  }
+  
+  .icon {
+    text-align: center;
+    text-decoration: none;
+    color: orange; /* Set the color property to orange */
+    font-size: 36px;
+    margin: 20px;
+    transition: all 0.3s ease;
+  }
+  
+  .icon:hover {
+    transform: scale(1.1);
+  }
+  
